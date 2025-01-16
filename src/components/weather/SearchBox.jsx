@@ -24,7 +24,7 @@ function SearchBox() {
     return (
         <>
            <p style={{fontSize: "20px", color: "#347136", marginBottom: "1rem"}}>Check Weather</p>
-            <input style={{width: "90%", padding: "5px", fontSize: "17px"}} value={city} onChange={handleChange} label="Enter City" required />
+            <input id='search-input' style={{padding: "5px", fontSize: "17px"}} value={city} onChange={handleChange} label="Enter City" required />
             
             <button style={{margin: "5px 0px 2rem"}} onClick={handleSubmit}>Search</button>
         </ >

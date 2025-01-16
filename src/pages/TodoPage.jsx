@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import "../styles/todopage.css";
 import Navbar from "../components/Navbar";
 import Sidebar from "../components/Sidebar";
 import Main from "../components/Main";
@@ -15,12 +16,12 @@ const TodoPage = () => {
       {user && user.isAuthenticated ?
         <div>
           <Navbar />
-          <div style={{ display: "flex" }}>
-            <div style={{ width: "15vw", minHeight: "calc(100vh - 60px)", backgroundColor: "#2c2c2c", color: "white" }}><Sidebar /></div>
+          <div style={{ display: "flex", flexWrap: "wrap" }}>
+            <div id='sidebar-component'><Sidebar /></div>
             
-            <div style={{ width: "60vw", minHeight: "calc(100vh - 60px)", backgroundColor: "#232323", color: "white" }}><Main /></div>
+            <div id='main-component'><Main /></div>
             
-            <div style={{ width: "25vw", minHeight: "calc(100vh - 60px)", backgroundColor: "#2c2c2c", color: "white", paddingTop: "2rem" }}><Weather /></div>
+            <div id='weather-component'><Weather /></div>
           </div>
         </div>
         :

@@ -1,0 +1,36 @@
+#signup-form-wrapper {
+    width: 100vw; 
+    height: 100vh;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    color: black;
+}
+
+#signup-form-wrapper h1 {
+    color: #347136;
+}
+
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#signup-form input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: 1px solid #347136;
+}
+
+#signup-btn {
+    width: fit-content;
+    cursor: pointer;
+    background-color: #347136;
+    color: white;
+    border: none;
+}

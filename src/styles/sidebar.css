@@ -1,0 +1,28 @@
+#sidebar-wrapper {
+    padding: 2rem 1rem;
+    flex-shrink: 0;
+}
+
+ #sidebar-middle {
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 2rem;
+ }
+
+ #sidebar-middle div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    gap: 20px;
+ }
+
+ #todo-chart {
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 1rem 0;
+ }

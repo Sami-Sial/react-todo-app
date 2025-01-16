@@ -1,0 +1,15 @@
+header {
+    height: 60px;
+    background-color: #232323;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-bottom: 0.5px solid lightgray;
+}
+
+#header-left {
+    display: flex;
+    align-items: flex-end;
+    height: 20px;
+}

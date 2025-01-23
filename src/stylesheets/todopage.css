@@ -1,21 +1,24 @@
 #sidebar-component {
     width: 15vw;
-    min-height: calc(100vh - 60px);
+    height: calc(100vh - 60px);
     background-color: #2c2c2c;
     color: white
 }
 
 #main-component {
     width: 60vw;
-    min-height: calc(100vh - 60px);
+    height: calc(100vh - 60px);
     background-color: #232323;
-    color: white
+    color: white;
+    overflow-y: auto;
+    scrollbar-color: #347136 #232323;
+    scrollbar-width: thin;
 }
 
 #weather-component {
     width: 25vw;
-    min-height: calc(100vh - 60px);
-    background-color: #232323;
+    height: calc(100vh - 60px);
+    background-color: #2c2c2c;
     color: white;
     padding-top: 2rem;
 }
@@ -39,8 +42,9 @@
 
     #weather-component {
         width: 100vw;
-        min-height: fit-content;
+        height: fit-content;
         padding: 3rem;
+        background-color: #232323;
     }
 
     #search-input {
@@ -53,6 +57,8 @@
         width: 100vw;
         flex-grow: 1;
         order: -1;
+        overflow-y: hidden;
+        height: auto;
     }
 
     #sidebar-component {

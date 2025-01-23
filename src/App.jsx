@@ -1,7 +1,7 @@
 import { lazy, Suspense, useEffect } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Loader from "./components/Loader";
-import "./styles/app.css";
+import "./stylesheets/app.css";
 
 
 const TodoPage = lazy(() => import("./pages/TodoPage"));

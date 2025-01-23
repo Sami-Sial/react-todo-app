@@ -4,7 +4,6 @@ import CircularProgress from '@mui/material/CircularProgress';
 
 function WeatherInfo() {
     const { weatherData, isLoading } = useSelector(state => state.weather);
-    console.log(weatherData);
 
     return (
         <>

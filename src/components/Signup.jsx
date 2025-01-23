@@ -3,9 +3,9 @@ import { toast } from "react-toastify";
 import { useNavigate } from 'react-router-dom';
 import { Link } from "react-router-dom";
 import axios from "axios";
-import "../styles/signup.css";
+import "../stylesheets/signup.css";
 import { useDispatch } from 'react-redux';
-import { signUpUser } from "../redux/user.slice";
+import { signUpUser } from "../redux-toolkit/user.slice";
 
 
 const Signup = () => {

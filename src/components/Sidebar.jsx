@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/sidebar.css";
+import "../stylesheets/sidebar.css";
 import SpeakerNotesIcon from '@mui/icons-material/SpeakerNotes';
 import EventIcon from '@mui/icons-material/Event';
 import StarIcon from '@mui/icons-material/Star';
@@ -14,8 +14,11 @@ const Sidebar = () => {
   const { todos } = useSelector(state => state.todos);
   const { user } = useSelector(state => state.user);
 
+  const completedTasks = todos.filter((todo) => {
+    return todo.isDone == true;
+  })
+
   useEffect(() => {
-    console.log(todos.length);
     if (todos.length>=1) {
       let tasksDone = todos.filter((todo) => {
         return todo.isDone == true
@@ -40,7 +43,7 @@ const Sidebar = () => {
         <div id="sidebar">
 
           {/* <img src="../assets/react.svg" alt="" /> */}
-          <p style={{ textAlign: "center", marginBottom: "20px", fontSize: "18px", color: "#347136" }}>Hey, {user.name}</p>
+          <p style={{ textAlign: "center", marginBottom: "20px", fontSize: "18px", color: "#347136", fontWeight: "bold" }}>Hey, {user.name}</p>
 
           <div id='sidebar-middle'>
             <div>
@@ -56,8 +59,8 @@ const Sidebar = () => {
 
           <div id="todo-chart">
             <div>
-              <p>Today Tasks</p>
-              {/* <p>11</p> */}
+              <p> Total Tasks Todo: &nbsp; {todos.length >= 1 ? todos.length : 0}</p>
+              <p>Completed Tasks: &nbsp; {completedTasks.length >= 1 ? completedTasks.length : 0 }</p>
             </div>
 
               <Gauge

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 import { useDispatch, useSelector } from 'react-redux';
-import { getWeatherData } from '../../redux/weather.slice';
+import { getWeatherData } from '../../redux-toolkit/weather.slice';
 
 function SearchBox() {
     const dispatch = useDispatch();

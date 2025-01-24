@@ -11,15 +11,6 @@ Enhanced the basic To-Do application by integrating external API data, implement
 5. Redux Toolkit, Rdeux Thunk(for fetching api data)
 ## Deployed Link of Project
 [https://react-todo-app-ochre-three.vercel.app/](https://react-todo-app-ochre-three.vercel.app/)
-## How to start on your local machine
-- Clone this repository in your local machine with node js installed in your local
-  - Open your local machine folder in code editor(VS Code) where you want to clone this repo 
-  - Write following command in your terminal "git clone https://github.com/Sami-Sial/React-Todo-App"
-- Then write these commands in your terminal after one another when one is completed
-  - cd "React-Todo-App/"
-  - npm install 
-  - npm run dev
-_Project will be ready on given url in your terminal when you run command "npm run dev"_
 ## Features Of Todo-App
 - **User Authentication:** I have not used backend, but used local storage for storing user authentication status.User will not access todos page without signing in.After sining up user will be redirected to todos page and also can logout by one click.
 - **Add Task:** Users should be able to input a task into a text field and add it to the list by pressing a button.

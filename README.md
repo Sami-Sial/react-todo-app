@@ -35,9 +35,9 @@ _Project will be ready on given url in your terminal when you run command "npm r
 - **Weather Info:** I have build a weather componet in which user can check the weather of any city it will help if user have any outdoor activity.
 - **State Management:** I also used redux toolkit for centralized state management and redux thunk for fetching api data like weather data of cties.
 ## Screenshots of App
-![app screenshot](https://photos.google.com/album/AF1QipMzF40FVDzmYJ_ktW-GeA5-hVJq3BYjDFz-dmlP/photo/AF1QipMW2sJjoWwQQMfHzs4PrOe7tFrN0qYXLii6Txxb) <br>
-![app screenshot](https://photos.google.com/album/AF1QipMzF40FVDzmYJ_ktW-GeA5-hVJq3BYjDFz-dmlP/photo/AF1QipPRu3pc6NQ6DJ1p31QDiNeGztUWZw6XVNgLXCpM) <br>
-![app screenshot](https://photos.google.com/album/AF1QipMzF40FVDzmYJ_ktW-GeA5-hVJq3BYjDFz-dmlP/photo/AF1QipPvT_Imq00A1iAlwDvfH0tJ2gm02mVw27ATZ8bA) <br>
-![app screenshot](https://photos.google.com/album/AF1QipMzF40FVDzmYJ_ktW-GeA5-hVJq3BYjDFz-dmlP/photo/AF1QipMM6wGJXmtDY2zEGxzgkKYj0DrJVrqtWISY5PFj) <br>
-![app screenshot](https://photos.google.com/album/AF1QipMzF40FVDzmYJ_ktW-GeA5-hVJq3BYjDFz-dmlP/photo/AF1QipN24A8aI5WaGFTVB7MTPCh10CdKOlqc_1bXwMGY) <br>
+(https://i.im.ge/2025/01/24/HoUpvh.Screenshot-41.png)
+(https://i.im.ge/2025/01/24/HoUfe9.Screenshot-42.png)
+(https://i.im.ge/2025/01/24/HoUzDX.Screenshot-38.png)
+(https://i.im.ge/2025/01/24/HoUHC8.Screenshot-39.png)
+(https://i.im.ge/2025/01/24/HoUVcK.Screenshot-40.png)
 
